@@ -1,0 +1,69 @@
+{% load static %}
+
+<!--begin::Header secondary-->
+<div class="app-header-secondary app-header-mobile-drawer" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_header_secondary_toggle" data-kt-sticky="true" data-kt-sticky-name="app-header-secondary-sticky" data-kt-sticky-offset="{default: 'false', lg: '300px'}" data-kt-swapper="true" data-kt-swapper-mode="append" data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_app_header'}">
+    <!--begin::Header secondary container-->
+    <div class="app-container container-xxl app-container-fit-mobile d-flex align-items-stretch">
+        <!--begin::Menu wrapper-->
+        <div class="header-menu d-flex align-items-stretch w-100">
+            <!--begin::Menu-->
+            <div class="menu menu-lg-rounded menu-column menu-lg-row menu-state-bg menu-state-primary menu-title-gray-700 menu-arrow-gray-400 menu-bullet-gray-400 fw-bold my-5 my-lg-0 align-items-stretch" id="#kt_header_menu" data-kt-menu="true">
+                
+                <div class="menu-item here active">
+                    <a class="menu-link py-3" href="{% url 'dashboard' %}" title="Özet bilgiler ve istatistikler" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="bottom">
+                        <span class="menu-title">
+                            <span class="menu-text">Giriş</span>
+                            <span class="menu-desc">Özet &amp; İstatistikler</span>
+                        </span>
+                        <span class="menu-arrow d-lg-none"></span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link py-3" href="{% url 'case' %}" title="Ücret, kıdem, ihbar tazminatı, fazla çalışma, UBGT, yıllık izin alacaklarını heesaplayın." data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="bottom">
+                        <span class="menu-title">
+                            <span class="menu-text">Alacak</span>
+                            <span class="menu-desc">İşçilik alacak hesaplamaları</span>
+                        </span>
+                        <span class="menu-arrow d-lg-none"></span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link py-3" href="dashboard" title="Bu modül henüz hazırlanmadı!" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="bottom">
+                        <span class="menu-title">
+                            <span class="menu-text">İade</span>
+                            <span class="menu-desc">İşe iade hesaplamaları</span>
+                        </span>
+                        <span class="menu-arrow d-lg-none"></span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link py-3" href="dashboard" title="" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="bottom">
+                        <span class="menu-title">
+                            <span class="menu-text"></span>
+                            <span class="menu-desc"></span>
+                        </span>
+                        <span class="menu-arrow d-lg-none"></span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link py-3" href="dashboard" title="" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="bottom">
+                        <span class="menu-title">
+                            <span class="menu-text"></span>
+                            <span class="menu-desc"></span>
+                        </span>
+                        <span class="menu-arrow d-lg-none"></span>
+                    </a>
+                </div>
+                
+            </div>
+            <!--end::Menu-->
+        </div>
+        <!--end::Menu wrapper-->
+    </div>
+    <!--end::Header secondary container-->
+</div>
+<!--end::Header secondary-->
